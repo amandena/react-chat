@@ -1,9 +1,15 @@
 import './App.css'
+import { ChatEngine } from 'react-chat-engine' 
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
-      React Chat
+      <ChatEngine
+        height='100vh'
+        projectID=''
+        userName=''
+        userSecret=''
+      />
     </div>
   )
 }
